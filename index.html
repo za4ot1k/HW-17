@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій перший сайт з Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Мій сайт</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Головна <span class="sr-only">(Поточна)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Вітаємо на нашому сайті!</h1>
+        <p class="lead">
+          Це демонстраційний сайт, створений з використанням Bootstrap.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Ви можете використовувати Bootstrap для швидкого створення стильних і
+          адаптивних веб-сайтів.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Про нас</h2>
+          <p>
+            Ми - ваша компанія, яка надає рішення для вашого бізнесу. Наші
+            послуги включають в себе ...
+          </p>
+        </div>
+        <div class="col">
+          <h2>Наші послуги</h2>
+          <p>Ми пропонуємо широкий спектр послуг, включаючи ...</p>
+        </div>
+        <div class="col">
+          <h2>Контакти</h2>
+          <p>
+            Зв'яжіться з нами за адресою: example@example.com або за телефоном:
+            +123456789
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row row3">
+        <div class="col">
+          <h2 class="section-title">Галерея</h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <img
+                src="https://img.freepik.com/premium-vector/scope-definition-isolated-cartoon-vector-illustrations_107173-22479.jpg?size=626&ext=jpg&ga=GA1.1.732737785.1710685859&semt=ais"
+                alt="Зображення 2"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="https://img.freepik.com/premium-vector/office-scene-men-and-women-taking-part-in-business-meeting_171919-813.jpg?w=826"
+                alt="Зображення 1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="https://img.freepik.com/premium-vector/business-consultant-isolated-cartoon-vector-illustrations_107173-22624.jpg?size=626&ext=jpg"
+                alt="Зображення 3"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-dark text-white py-5">
+      <div class="container">
+        <h2 class="mb-4">Зв'яжіться з нами</h2>
+        <p class="lead mb-4">Маєте запитання або коментарі? Напишіть нам!</p>
+        <a href="#" class="btn btn-primary">Зв'язатися з нами</a>
+      </div>
+    </section>
+
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">© 2024 Мій сайт</span>
+      </div>
+    </footer>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
